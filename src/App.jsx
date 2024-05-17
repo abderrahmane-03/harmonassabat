@@ -9,8 +9,11 @@ import anniversaire from "./assets/icons8-birthday-80.png";
 import register from "./assets/inscription.png";
 import cup from "./assets/cup.png";
 import annonce from "./assets/annonces.png";
-import makeup from "./assets/makeup.png";
 import makeupImg from "./assets/makeupimg.jpg";
+import makeupImg2 from "./assets/makeupimg2.jpg";
+import makeupimg3 from "./assets/makeupimg3.jpg";
+import makeupimg4 from "./assets/makeupimg4.jpg";
+import makeupimg5 from "./assets/makeupimg5.jpg";
 import backgroundImage from "./assets/image3.jpg";
 import React from "react";
 
@@ -110,27 +113,27 @@ function App() {
 
                             <div className="flex flex-wrap gap-5 py-10">
                                 <div
-                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-[#fce404 ] hover:text-white duration-500">
+                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-yellow-600 hover:text-white duration-500">
                                     <img className="w-12 h-12" src={marriage} alt=""/>
                                     <h1 className="font-serif font-medium  py-1">Marriage</h1>
                                 </div>
                                 <div
-                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-[#fce404 ] hover:text-white duration-500">
+                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-yellow-600 hover:text-white duration-500">
                                     <img className="w-12 h-12" src={anniversaire} alt=""/>
                                     <h1 className="font-serif font-medium  py-1">Anniversaire</h1>
                                 </div>
                                 <div
-                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-[#fce404 ] hover:text-white duration-500">
+                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-yellow-600 hover:text-white duration-500">
                                     <img className="w-12 h-12" src={feteDeNaissance} alt=""/>
                                     <h1 className="font-serif font-medium  py-1">Fete de naissance</h1>
                                 </div>
                                 <div
-                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-[#fce404 ] hover:text-white duration-500">
+                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-yellow-600 hover:text-white duration-500">
                                     <img className="w-12 h-12" src={babyShower} alt=""/>
                                     <h1 className="font-serif font-medium  py-1">BabyShower</h1>
                                 </div>
                                 <div
-                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-[#fce404 ] hover:text-white duration-500">
+                                    className="flex flex-col justify-center text-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer px-5 hover:bg-yellow-600 hover:text-white duration-500">
                                     <img className="w-12 h-12" src={conference} alt=""/>
                                     <h1 className="font-serif font-medium  py-1">Conférence</h1>
                                 </div>
@@ -170,7 +173,7 @@ function App() {
                         </div>
                     </div>
 
-                    <div className="py-24">
+                    <div className="py-10">
                         <h1 className="font-medium font-serif text-gray-500 text-md bg-zinc-400 px-6 py-1 w-56 rounded-md">Découvrez les nouveautés</h1>
                         <h1 className="text-4xl text-black font-serif font-medium py-5">Nouvelles annonces des prestataires</h1>
 
@@ -189,49 +192,587 @@ function App() {
                             </div>
                         </div>
 
-                        <div className="flex flex-wrap">
-                            <div className="border border-gray-500 w-[28%] rounded-md hover:shadow-2xl ">
-                                <img className="h-[250px] w-full transition-transform duration-500 ease-in-out transform scale-100 group-hover:scale-80" src={makeupImg} alt=""/>
-                                <div className="flex gap-2 px-3 mt-3 ">
-                                    <h1 className="text-xl font-serif font-medium">Make up artist</h1>
-                                    <img className="w-[26px] h-[26px] " src={makeup} alt=""/>
+                        <div className="flex flex-wrap gap-5 px-12">
+
+
+                            <div className="card relative py-2">
+                                <div className="cursor-pointer  duration-700">
+                                    <img className="w-[330px] h-[240px]" src={makeupImg2} alt=""/>
                                 </div>
-                                <div className="flex gap-2 px-3  py-3 ">
-                                    <svg className="w-6 h-6 bg-yellow-600 px-1 py-1 dark:text-white rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.127.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"/>
-                                    </svg>
-                                    <p className="text-md font-serif font-medium text-gray-500 ">Casablanca, Maroc</p>
-                                </div>
-                                <div className="w-full h-[1px] bg-gray-500"></div>
-                                <div className="flex justify-between items-center px-5">
-                                    <div className=" py-4 flex justify-center items-center gap-2">
-                                        <div className="border-gray-400 border px-1 py-1 rounded-full  hover:border-yellow-500 duration-500">
-                                            <svg className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-width="2" d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z"/>
-                                                <path stroke="currentColor" stroke-width="2" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
-                                            </svg>
+                                <div className="bg-white shadow-lg w-[93%] mx-auto mt-[-20px] relative">
+                                    <div className="px-8 py-4">
+                                        <div className="flex gap-2">
+                                            <h1 className="text-xl font-serif font-medium">Make up artiste</h1>
                                         </div>
-                                        <div className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
-                                            <svg className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3"/>
-                                            </svg>
+                                        <div className="py-2 flex gap-3">
+                                            <div className="flex items-center gap-2">
+                                                <svg
+                                                    className="w-5 h-5 bg-yellow-600 px-1 py-1 dark:text-white rounded-full"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" fill="none" viewBox="0 0 24 24">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.12.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"/>
+                                                </svg>
+                                                <p className="text-md font-serif font-medium text-gray-500 ">Casablanca,
+                                                    Maroc</p>
+                                            </div>
                                         </div>
-                                        <div className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
-                                            <svg className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
-                                            </svg>
+                                        <div className="w-full h-[1px] bg-gray-500"></div>
+                                        <div className="flex justify-between items-center">
+                                            <div className=" py-4 flex justify-center items-center gap-2">
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full  hover:border-yellow-500 duration-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z"/>
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <p className="text-gray-500 font-serif font-medium">66 Vue</p>
                                         </div>
                                     </div>
-                                    <p className="text-gray-500 font-serif font-medium">66 Vue</p>
+                                </div>
+                            </div>
+
+
+                            <div className="card relative py-2">
+                                <div className="cursor-pointer  duration-700">
+                                    <img className="w-[330px] h-[240px]" src={makeupimg3} alt=""/>
+                                </div>
+                                <div className="bg-white shadow-lg w-[93%] mx-auto mt-[-20px] relative">
+                                    <div className="px-8 py-4">
+                                        <div className="flex gap-2">
+                                            <h1 className="text-xl font-serif font-medium">Make up artiste</h1>
+                                        </div>
+                                        <div className="py-2 flex gap-3">
+                                            <div className="flex items-center gap-2">
+                                                <svg
+                                                    className="w-5 h-5 bg-yellow-600 px-1 py-1 dark:text-white rounded-full"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" fill="none" viewBox="0 0 24 24">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.12.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"/>
+                                                </svg>
+                                                <p className="text-md font-serif font-medium text-gray-500 ">Casablanca,
+                                                    Maroc</p>
+                                            </div>
+                                        </div>
+                                        <div className="w-full h-[1px] bg-gray-500"></div>
+                                        <div className="flex justify-between items-center">
+                                            <div className=" py-4 flex justify-center items-center gap-2">
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full  hover:border-yellow-500 duration-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z"/>
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <p className="text-gray-500 font-serif font-medium">66 Vue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="card relative py-2">
+                                <div className="cursor-pointer  duration-700">
+                                    <img className="w-[330px] h-[240px]" src={makeupimg4} alt=""/>
+                                </div>
+                                <div className="bg-white shadow-lg w-[93%] mx-auto mt-[-20px] relative">
+                                    <div className="px-8 py-4">
+                                        <div className="flex gap-2">
+                                            <h1 className="text-xl font-serif font-medium">Make up artiste</h1>
+                                        </div>
+                                        <div className="py-2 flex gap-3">
+                                            <div className="flex items-center gap-2">
+                                                <svg
+                                                    className="w-5 h-5 bg-yellow-600 px-1 py-1 dark:text-white rounded-full"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" fill="none" viewBox="0 0 24 24">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.12.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"/>
+                                                </svg>
+                                                <p className="text-md font-serif font-medium text-gray-500 ">Casablanca,
+                                                    Maroc</p>
+                                            </div>
+                                        </div>
+                                        <div className="w-full h-[1px] bg-gray-500"></div>
+                                        <div className="flex justify-between items-center">
+                                            <div className=" py-4 flex justify-center items-center gap-2">
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full  hover:border-yellow-500 duration-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z"/>
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <p className="text-gray-500 font-serif font-medium">66 Vue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="card relative py-2">
+                                <div className="cursor-pointer  duration-700">
+                                    <img className="w-[330px] h-[240px]" src={makeupimg5} alt=""/>
+                                </div>
+                                <div className="bg-white shadow-lg w-[93%] mx-auto mt-[-20px] relative">
+                                    <div className="px-8 py-4">
+                                        <div className="flex gap-2">
+                                            <h1 className="text-xl font-serif font-medium">Make up artiste</h1>
+                                        </div>
+                                        <div className="py-2 flex gap-3">
+                                            <div className="flex items-center gap-2">
+                                                <svg
+                                                    className="w-5 h-5 bg-yellow-600 px-1 py-1 dark:text-white rounded-full"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" fill="none" viewBox="0 0 24 24">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.12.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"/>
+                                                </svg>
+                                                <p className="text-md font-serif font-medium text-gray-500 ">Casablanca,
+                                                    Maroc</p>
+                                            </div>
+                                        </div>
+                                        <div className="w-full h-[1px] bg-gray-500"></div>
+                                        <div className="flex justify-between items-center">
+                                            <div className=" py-4 flex justify-center items-center gap-2">
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full  hover:border-yellow-500 duration-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z"/>
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <p className="text-gray-500 font-serif font-medium">66 Vue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="card relative py-2">
+                                <div className="cursor-pointer  duration-700">
+                                    <img className="w-[330px] h-[240px]" src={makeupImg} alt=""/>
+                                </div>
+                                <div className="bg-white shadow-lg w-[93%] mx-auto mt-[-20px] relative">
+                                    <div className="px-8 py-4">
+                                        <div className="flex gap-2">
+                                            <h1 className="text-xl font-serif font-medium">Make up artiste</h1>
+                                        </div>
+                                        <div className="py-2 flex gap-3">
+                                            <div className="flex items-center gap-2">
+                                                <svg
+                                                    className="w-5 h-5 bg-yellow-600 px-1 py-1 dark:text-white rounded-full"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" fill="none" viewBox="0 0 24 24">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="2"
+                                                          d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.12.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"/>
+                                                </svg>
+                                                <p className="text-md font-serif font-medium text-gray-500 ">Casablanca,
+                                                    Maroc</p>
+                                            </div>
+                                        </div>
+                                        <div className="w-full h-[1px] bg-gray-500"></div>
+                                        <div className="flex justify-between items-center">
+                                            <div className=" py-4 flex justify-center items-center gap-2">
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full  hover:border-yellow-500 duration-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z"/>
+                                                        <path stroke="currentColor" stroke-width="2"
+                                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3"/>
+                                                    </svg>
+                                                </div>
+                                                <div
+                                                    className="border-gray-400 border px-1 py-1 rounded-full hover:text-yellow-500 hover:border-yellow-500">
+                                                    <svg
+                                                        className="w-5 h-5 text-gray-900 hover:text-yellow-500 duration-300"
+                                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" fill="none" viewBox="0 0 24 24">
+                                                        <path stroke="currentColor" stroke-linecap="round"
+                                                              stroke-linejoin="round" stroke-width="2"
+                                                              d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <p className="text-gray-500 font-serif font-medium">66 Vue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="mt-24">
+                            <h1 className="font-medium font-serif text-gray-500 text-md bg-zinc-400 px-2 py-1 rounded-md text-center flex justify-center">Mounassabat.ma. un clic, vos événements bine yedik</h1>
+                            <h1 className="text-4xl text-black font-serif font-medium py-4 text-center">Découvrons les meilleurs Prestataires d'événements</h1>
+
+                            <div className="flex flex-wrap py-16 gap-5">
+
+                                <div
+                                    className="flex flex-col justify-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer  w-[32%]">
+                                    <img className="w-12 h-12" src={marriage} alt=""/>
+                                    <h1 className="font-serif font-medium  py-1">Marriage</h1>
+                                    <div className="w-full h-[1px] bg-gray-400 mt-3"></div>
+                                    <div className=" py-3">
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Traiteur Pour
+                                                Mariage</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Music</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Maquilleur et
+                                                coiffeur</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Nagafa (Planification
+                                                de marriage)</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Agence de voyage (Lien
+                                                de Miel)</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                    </div>
+                                    <div className="w-full h-[1px] bg-gray-400"></div>
+                                    <div className="flex gap-8 bg-gray-400 px-5 items-center py-2 rounded mt-4">
+                                        <button className="font-medium font-serif text-lg">Voir tous</button>
+                                        <svg className="w-6 h-6 text-gray-800" aria-hidden="true"
+                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                             viewBox="0 0 24 24">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div
+                                    className="flex flex-col justify-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer  w-[32%]">
+                                    <img className="w-12 h-12" src={babyShower} alt=""/>
+                                    <h1 className="font-serif font-medium  py-1">Marriage</h1>
+                                    <div className="w-full h-[1px] bg-gray-400 mt-3"></div>
+                                    <div className=" py-3">
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Agence décoration</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Traiteur Pour Baby Shower</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Patissier de boulanger</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                    </div>
+                                    <div className="w-full h-[1px] bg-gray-400"></div>
+                                    <div className="flex gap-8 bg-gray-400 px-5 items-center py-2 rounded mt-4">
+                                        <button className="font-medium font-serif text-lg">Voir tous</button>
+                                        <svg className="w-6 h-6 text-gray-800" aria-hidden="true"
+                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                             viewBox="0 0 24 24">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div
+                                    className="flex flex-col justify-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer  w-[32%]">
+                                    <img className="w-12 h-12" src={feteDeNaissance} alt=""/>
+                                    <h1 className="font-serif font-medium  py-1">Marriage</h1>
+                                    <div className="w-full h-[1px] bg-gray-400 mt-3"></div>
+                                    <div className=" py-3">
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Traiteur Pour Sbouaa</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Décorateur de fete</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Henné</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Lieu de réception</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Location de matériel Patissier ou boulanger</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                    </div>
+                                    <div className="w-full h-[1px] bg-gray-400"></div>
+                                    <div className="flex gap-8 bg-gray-400 px-5 items-center py-2 rounded mt-4">
+                                        <button className="font-medium font-serif text-lg">Voir tous</button>
+                                        <svg className="w-6 h-6 text-gray-800" aria-hidden="true"
+                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                             viewBox="0 0 24 24">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div
+                                    className="flex flex-col justify-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer  w-[32%]">
+                                    <img className="w-12 h-12" src={anniversaire} alt=""/>
+                                    <h1 className="font-serif font-medium  py-1">Anniversaire</h1>
+                                    <div className="w-full h-[1px] bg-gray-400 mt-3"></div>
+                                    <div className=" py-3">
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Anniversaire pour adultes</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Anniversaire pour enfants</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+
+                                    </div>
+                                    <div className="w-full h-[1px] bg-gray-400"></div>
+                                    <div className="flex gap-8 bg-gray-400 px-5 items-center py-2 rounded mt-4">
+                                        <button className="font-medium font-serif text-lg">Voir tous</button>
+                                        <svg className="w-6 h-6 text-gray-800" aria-hidden="true"
+                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                             viewBox="0 0 24 24">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div
+                                    className="flex flex-col justify-center items-center border-2 border-gray-400 py-3 rounded-md cursor-pointer  w-[32%]">
+                                    <img className="w-12 h-12" src={conference} alt=""/>
+                                    <h1 className="font-serif font-medium  py-1">Conférence</h1>
+                                    <div className="w-full h-[1px] bg-gray-400 mt-3"></div>
+                                    <div className=" py-3">
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Colloque</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Evénement professionnel</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                        <div className="w-full border border-dashed border-gray-500"></div>
+                                        <div className="flex justify-between items-center text-center py-4 gap-8">
+                                            <h1 className="text-gray-500 font-serif font-medium">Séminaire</h1>
+                                            <h1 className="text-white bg-yellow-600 px-2 py-1 text-sm rounded-full">6</h1>
+                                        </div>
+                                    </div>
+                                    <div className="w-full h-[1px] bg-gray-400"></div>
+                                    <div className="flex gap-8 bg-gray-400 px-5 items-center py-2 rounded mt-4">
+                                        <button className="font-medium font-serif text-lg">Voir tous</button>
+                                        <svg className="w-6 h-6 text-gray-800" aria-hidden="true"
+                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                             viewBox="0 0 24 24">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
+                <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '50vh' }}>
+                    <div className="w-[55%] mx-auto">
+                        <div className="py-20">
+                            <h1 className="text-6xl font-medium font-serif">LES PRESTATAIRES</h1>
+                            <p className="py-8 text-gray-500 text-lg font-serif font-medium">Découvrons les meilleurs
+                                Prestataires des évenements</p>
+
+                            <div className="flex gap-12">
+                                <div className="bg-black px-12 py-3 rounded-sm">
+                                    <button className="text-xl font-serif font-medium text-white">Rechercher</button>
+                                </div>
+                                <div
+                                    className="flex justify-center items-center gap-10 bg-yellow-600 px-8 py-3 rounded-sm">
+                                    <button className="text-xl font-serif font-medium text-white">Publier Votre Annonce</button>
+                                    <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                         viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
 
             </div>
     );

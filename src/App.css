@@ -68,3 +68,11 @@ p {
     visibility: visible;
 }
 
+.card:hover img {
+    transform: translateY(10px);
+}
+
+.card img {
+    transition: transform 0.6s ease;
+}
+
