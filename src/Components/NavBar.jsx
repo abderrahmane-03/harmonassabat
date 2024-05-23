@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import logo from '/src/assets//logo.png'
 
 const NavBar = () => {
@@ -13,9 +14,9 @@ const NavBar = () => {
                                     <a href="#"  className="gi-header-btn gi-site-menu-icon mr-[20px] flex items-center min-[992px]:hidden max-[575px]:hidden">
                                         <i  className="fi-rr-menu-burger text-[24px] leading-[17px] text-black"></i>
                                     </a>
-                                    <div  className="header-logo text-left">
-                                        <a href="#"><img src={logo}  className="max-w-[144px] max-[1199px]:max-w-[120px] max-[991px]:max-w-[120px] max-[767px]:max-w-[100px] w-[110px] h-[85px]"/></a>
-                                    </div>
+                                    <Link to="/"  className="header-logo text-left">
+                                        <img src={logo}  className="max-w-[144px] max-[1199px]:max-w-[120px] max-[991px]:max-w-[120px] max-[767px]:max-w-[100px] w-[110px] h-[85px]"/>
+                                    </Link>
                                 </div>
                                 <div  className="gi-header-cat transition-all duration-[0.3s] w-full ease-in-out bg-[#fff] hidden min-[992px]:block">
                                     <div  className="flex flex-wrap justify-between items-center mx-auto min-[1600px]:max-w-[1600px] min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px] relative">
